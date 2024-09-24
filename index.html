@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center content vertically */
+            min-height: 100vh; /* Full height of the viewport */
+        }
+        .banner {
+            width: 100%; /* Full width */
+            height: 200px; /* Height for the banner */
+            background-image: url('https://livewallp.com/wp-content/uploads/2021/08/Devil-Anime-Girl.jpg'); /* Banner image */
+            background-size: cover; /* Cover the entire area */
+            background-position: center; /* Center the image */
+        }
+        .content {
+            display: flex; /* Use flexbox to arrange information */
+            justify-content: center;
+            text-align: center;
+            margin: 40px 0; /* Increased space above and below content */
+        }
+        .info-pack, .credits, .modifications {
+            margin: 0 20px; /* Space between info boxes */
+            padding: 15px;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 300px; /* Max width of the Info Pack box */
+            text-align: left; /* Align text to the left for both sections */
+            animation: fadeIn 0.5s ease-in; /* Animation for boxes */
+        }
+        .credits h2, .info-pack h2, .modifications h2 {
+            margin-top: 0;
+            margin-bottom: 10px; /* Add space below heading */
+        }
+        .default-line {
+            margin-top: 20px; /* Add space above the line */
+            text-align: center; /* Center-aligns the text */
+            font-weight: bold; /* Makes the line more visible */
+            position: relative; /* Allows relative positioning of symbols */
+        }
+
+        /* Define the rotation animation for characters / and \ */
+        .rotate {
+            display: inline-block;
+            animation: rotate 1s linear infinite; /* Continuous rotation animation */
+            vertical-align: middle; /* Vertically aligns the symbols */
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px); /* Start slightly lower */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0); /* End in original position */
+            }
+        }
+
+        .footer {
+            text-align: center; 
+            margin: 20px 0;
+            background: #e7e7e7; /* Light gray background */
+            padding: 15px;
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer a {
+            color: #007BFF; /* Blue link color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Bold text */
+        }
+
+        .footer a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"></div> <!-- Banner with the specified image -->
+    
+    <div class="content">
+        <div class="credits">
+            <h2>Information</h2>
+            <p>Made By 292004</p>
+            <p>Design By nanalienu7777</p>
+            <p>UUID by la*</p>
+            <p>I hope you like the texture and use it with joy.</p>
+        </div>
+
+        <div class="info-pack">
+            <h2>Info Pack</h2>
+            <p>Size: 0.04 MB</p>
+            <p>Version: all</p>
+            <p>Data Pack: 2022</p>
+            <p>Texture Pack Default Style</p>
+            <p>Version Pack: 4</p>
+        </div>
+    </div>
+
+    <div class="modifications">
+        <h2>Modifications</h2>
+        <p>Armor, Sword, Shovel, Axe, Hoe.</p>
+        <p>Log, Trapdoor, Door.</p>
+        <p>Destroy Block Animation</p>
+        <p>Hunger Bar Cookie</p>
+    </div>
+
+    <div class="footer">
+        <p>Texture Website: <a href="https://cntamv.weebly.com/defaultpvp" target="_blank">cntamv.weebly.com/defaultpvp</a></p>
+        <p>If you like the texture or not, please leave feedback <a href="https://forms.gle/ACHqWxSWNvPCXS2q7" target="_blank">Click here</a>.</p>
+    </div>
+    
+    <p class="default-line">
+        <span class="rotate">/</span>————————————Default—PVP—v4—————————————<span class="rotate">\</span>
+    </p>
+</body>
+</html>
