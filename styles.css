@@ -1,0 +1,125 @@
+body {
+    background-color: #f0f0f0; /* Fundal deschis pentru contrast */
+    font-family: 'Arial', sans-serif; /* Font modern */
+    margin: 0; /* Eliminarea marginilor implicite */
+    padding: 0; /* Eliminarea padding-ului implicite */
+}
+
+.credits-container {
+    background: linear-gradient(135deg, #4a90e2, #d9e6f2); /* Fundal gradient */
+    border-radius: 15px; /* Colțuri rotunjite */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Umbra mai profundă */
+    padding: 40px; /* Spațiere interioară */
+    max-width: 700px; /* Lățime maximă */
+    margin: 40px auto; /* Centrare pe pagină */
+    text-align: center; /* Aliniere centrală */
+    position: relative; /* Poziționare relativă pentru efecte */
+    overflow: hidden; /* Ascunderea elementelor care depășesc containerul */
+}
+
+h2, h3 {
+    color: #fff; /* Culoare albă pentru titlu */
+    text-transform: uppercase; /* Litere mari pentru un impact mai mare */
+    font-weight: bold; /* Îngroșare pentru titluri */
+    letter-spacing: 1px; /* Spațiere între litere */
+}
+
+h2 {
+    font-size: 2.5em; /* Mărime mai mare */
+    margin-bottom: 10px; /* Spațiere sub titlu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Umbra pentru titlu */
+}
+
+h3 {
+    font-size: 1.8em; /* Mărime medie */
+    margin-bottom: 15px; /* Spațiere sub subtitlu */
+}
+
+p {
+    color: #fff; /* Culoare albă pentru paragrafe */
+    line-height: 1.6; /* Îmbunătățirea lizibilității */
+    margin: 10px 0; /* Spațiere verticală între paragrafe */
+    font-weight: 500; /* Îngroșarea textului pentru impact */
+}
+
+.highlight {
+    color: #f39c12; /* Culoare diferită pentru a evidenția */
+    font-weight: bold; /* Îngroșare pentru evidențiere */
+}
+
+.items-list {
+    list-style-type: none; /* Eliminarea marcajelor */
+    padding: 0; /* Eliminarea spațierii interioare */
+}
+
+.items-list li {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundal deschis pentru elemente */
+    border-radius: 10px; /* Colțuri rotunjite */
+    padding: 15px; /* Spațiere interioară */
+    margin: 10px 0; /* Spațiere între elemente */
+    transition: transform 0.3s, background-color 0.3s; /* Tranziții pentru hover */
+    color: #ffffff; /* Culoare text elemente */
+    font-weight: 400; /* Greutate normală pentru textul din listă */
+}
+
+.items-list li:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Culoare de hover mai deschisă */
+    transform: translateY(-3px); /* Efect de ridicare la hover */
+    font-weight: 700; /* Îngroșarea textului la hover */
+}
+
+.footer {
+    color: #f39c12; /* Culoare portocalie pentru footer */
+    margin-top: 20px; /* Spațiere deasupra */
+    font-size: 1em; /* Dimensiune mică */
+    font-style: italic; /* Stil italic */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Umbra pentru footer */
+}
+
+/* Animații */
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards; /* Animație de apariție */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Efect de ridicare la apariție */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-in-out forwards; /* Animație de alunecare */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Efect de ridicare la apariție */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+/* styles.css */
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+* {
+    user-select: none;
+}
